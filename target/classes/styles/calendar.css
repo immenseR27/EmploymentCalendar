@@ -1,0 +1,17 @@
+.button{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Mistral", Helvetica, Arial, sans-serif;
+    -fx-font-size: 5em;
+    -fx-text-fill:  #008B8B;
+    -fx-text-alignment: center;
+    -fx-pref-height: 200;
+    -fx-pref-width: 200;
+}
+.button:hover{
+    -fx-font-size: 6em;
+    -fx-text-fill: #00CED1;
+    -fx-background-color: rgba(0,0,0,0);
+}

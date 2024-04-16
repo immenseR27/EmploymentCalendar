@@ -1,0 +1,65 @@
+.button{
+    -fx-background-image: url(/images/close.png);
+    -fx-background-color: transparent;
+    -fx-background-size: 15px 15px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.button:hover{
+    -fx-cursor: hand;
+}
+
+.button:pressed{
+    -fx-background-size: 13px 13px;
+}
+
+.combo-box {
+    -fx-background-radius: 4;
+    -fx-background-color:   #E0FFFF;
+    -fx-font-family:"Garamond", Helvetica, Arial, sans-serif;
+    -fx-font-size:22px ;
+    -fx-padding: 0;
+    -fx-pref-width: 250;
+
+}
+
+.combo-box .list-cell{
+    -fx-text-fill: #008B8B ;
+    -fx-font-weight: bold;
+}
+
+.combo-box .combo-box-popup .list-view, .combo-box .combo-box-popup .list-cell {
+    -fx-background-color:  #E0FFFF ;
+    -fx-text-fill: #008B8B ;
+}
+
+.combo-box .combo-box-popup .list-cell:hover {
+    -fx-text-fill:  #E0FFFF ;
+    -fx-background-color: #008B8B ;
+}
+
+.label {
+    -fx-font-family:"Garamond", Helvetica, Arial, sans-serif;
+    -fx-font-size: 22px;
+    -fx-text-fill:  #008B8B;
+    -fx-text-alignment: center;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-background-radius: 1;
+    -fx-pref-width: 40;
+    -fx-background-color: #AFEEEE;
+    -fx-text-fill: #008B8B;
+    -fx-font-size: 22px;
+    -fx-font-family: "Garamond";
+    -fx-padding: 0px;
+    -fx-alignment: CENTER;
+    -fx-font-weight: bold;
+}
+
+.radio-button.button{
+    -fx-background-color: transparent;
+    -fx-content-display: none;
+}

@@ -1,0 +1,15 @@
+.label{
+    -fx-font-family:"Garamond", Helvetica, Arial, sans-serif;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #E0FFFF;
+    -fx-text-alignment: center;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color:  #008B8B;
+}
+
+.scroll-pane {
+    -fx-background-color:transparent;
+}

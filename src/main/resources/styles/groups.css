@@ -1,0 +1,41 @@
+.toggle-button{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-text-fill:  #008B8B;
+    -fx-text-alignment: center;
+    -fx-font-family: Garamond;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+
+}
+.toggle-button:hover{
+    -fx-font-size: 32px;
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.toggle-button:selected{
+    -fx-text-fill: #16535a;
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.label {
+    -fx-font-family:"Garamond", Helvetica, Arial, sans-serif;
+    -fx-font-size: 36px;
+    -fx-text-fill:  #008B8B;
+    -fx-text-alignment: center;
+    -fx-font-weight: bold;
+    -fx-underline: true;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: #37979ee1;
+    -fx-border-color: #E0FFFF;
+    -fx-border-width: 2;
+    -fx-border-radius: 4;
+}
+
+.scroll-pane {
+    -fx-background-color:transparent;
+}

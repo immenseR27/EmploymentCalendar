@@ -1,0 +1,6 @@
+.label {
+    -fx-font-family:"Mistral", Helvetica, Arial, sans-serif;
+    -fx-font-size: 5em;
+    -fx-text-fill:  #008B8B;
+    -fx-text-alignment: center;
+}

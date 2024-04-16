@@ -1,0 +1,46 @@
+.button{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Garamond", Helvetica, Arial, sans-serif;
+    -fx-font-size: 30px;
+    -fx-text-fill:  #AFEEEE;
+    -fx-text-alignment: center;
+    -fx-padding: 0 0 5px 20px;
+
+}
+.button:hover{
+    -fx-text-fill: #00CED1;
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.label{
+    -fx-font-size: 36px;
+    -fx-font-family:"Garamond", Helvetica, Arial, sans-serif;
+    -fx-text-fill:  #AFEEEE;
+    -fx-padding: 0 0 10px 0;
+}
+
+.combo-box {
+    -fx-background-radius: 4;
+    -fx-background-color:   #E0FFFF;
+    -fx-font-family:"Garamond", Helvetica, Arial, sans-serif;
+    -fx-font-size: 25px ;
+    -fx-text-fill: #008B8B ;
+}
+
+.combo-box .list-cell{
+    -fx-text-fill: #008B8B ;
+    -fx-padding: 5px;
+}
+
+.combo-box .combo-box-popup .list-view, .combo-box .combo-box-popup .list-cell {
+    -fx-background-color:  #E0FFFF ;
+    -fx-text-fill: #008B8B ;
+}
+.combo-box .combo-box-popup .list-cell:hover {
+    -fx-text-fill:  #E0FFFF ;
+    -fx-background-color: #008B8B ;
+}
+

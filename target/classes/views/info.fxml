@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="489.0" style="-fx-background-color: #E0FFFF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.Medvedev.VA2.controllers.InfoController">
+   <VBox fx:id="title" alignment="CENTER" prefHeight="95.0" prefWidth="489.0" style="-fx-background-color: #AFEEEE;" />
+   <VBox fx:id="vBox" alignment="TOP_CENTER" layoutX="-3.0" layoutY="95.0" prefHeight="383.0" prefWidth="492.0" style="-fx-background-color: #E0FFFF;" />
+</Pane>

@@ -1,0 +1,13 @@
+.check-box > .box {
+    visibility: hidden;
+}
+
+.check-box {
+    -fx-text-fill: #008B8B;
+    -fx-font-family: Mistral;
+    -fx-font-size: 4em;
+}
+
+.check-box:selected{
+    -fx-text-fill: #16535a;
+}
